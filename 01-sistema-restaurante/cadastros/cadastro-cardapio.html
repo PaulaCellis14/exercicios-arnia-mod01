@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Cardápios</title>
+
+        <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="color">Cadastrar Cardápio</h1>
+        </header>
+
+        <form class="espacamento" action="">
+            <label for="nome">Nome&#58;</label>
+            <input type="text" id="nome">
+            <br />
+            <br />
+
+            <label for="decricao">Decrição&#58;</label>
+            <textarea id="decricao" cols="25" rows="3"></textarea>
+            <br />
+            <br />
+
+            <label for="ativo">Ativo?</label>
+            <input type="radio" name="ativo" id="ativoSim" value="Sim">
+            <label class="inline" for="sim">Sim</label>
+            <br />
+
+            <input type="radio" name="ativo" id="ativoNão" value="Não">
+            <label class="inline" for="nao">Não</label>
+
+            <br />
+            <br />
+            <hr />
+            <br />
+
+            <p class="bold">Pratos</p>
+            <br />
+
+            <label>Prato 01&#58;</label>
+
+            <select name="meal" id="cadastro-prato01">
+                <option value="">Escolha</option>
+                <option value="seafood">Frutos do Mar</option>
+                <option value="pasta">Massa</option>
+                <option value="salad">Salada</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="valor-meal01">Valor&#58;</label>
+            <input type="text" id="valor-meal01">
+            <br />
+            <br />
+
+            <label>Prato 02&#58;</label>
+
+            <select name="meal" id="cadastro-prato02">
+                <option value="">Escolha</option>
+                <option value="seafood">Frutos do Mar</option>
+                <option value="pasta">Massa</option>
+                <option value="salad">Salada</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="valor-meal02">Valor&#58;</label>
+            <input type="text" id="valor-meal02">
+
+            <br />
+            <br />
+            <hr />
+            <br />
+
+            <p class="bold">Bebidas</p>
+            <br />
+
+            <label for="bebida01">Bebida 01</label>
+
+            <select name="drink" id="bebida01">
+                <option value="">Escolha</option>
+                <option value="alcool">Álcool</option>
+                <option value="juice">Suco</option>
+                <option value="soda">Refrigerante</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="valor-drink01">Valor&#58;</label>
+            <input type="text" id="valor-drink01">
+            <br />
+            <br />
+
+            <label for="bebida02">Bebida 02&#58;</label>
+
+            <select name="drink" id="bebida02">
+                <option value="">Escolha</option>
+                <option value="alcool">Álcool</option>
+                <option value="juice">Suco</option>
+                <option value="soda">Refrigerante</option>
+            </select>
+        </form>
+
+        <a class="back" href="../proprietario.html">Voltar</a>
+    </body>
+</html>

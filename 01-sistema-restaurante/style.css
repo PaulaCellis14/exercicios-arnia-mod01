@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #c7c6c6;
+}
+
+h1{
+    font-size: 2em; 
+}
+
+.back{
+    color: #808080;
+}
+
+.espacamento{
+    padding: 1.25em;
+}
+
+.block{
+    display: block;
+}
+
+.color{
+    color: #A10303;
+}
+
+.img-index{
+    width: 7%;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.link{
+    margin-left: 0.6em;
+    color: #A10303;
+}
+
+.img-prop{
+    width: 2.5%;
+}
+
+/*lista itens*/
+li{
+    padding: 1.25em;
+    list-style: none;
+}
+
+li a{
+    margin-left: 0.6em;
+    color: #A10303;
+    font-size: 1.5em;
+}
+
+.img-itens{
+    width: 20%;
+    margin-left: 0.5em;
+}
+
+/*formulario*/
+label{
+    display: block;
+}
+
+button a{
+    padding: 0.4em;
+    text-decoration: none;
+    color: #000;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+

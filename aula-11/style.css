@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{    
+    max-height: 100vh;
+    max-width: 100vw;
+    padding: 0 4em;
+    background: linear-gradient(243.36deg, #7526f59e 0%, #7f38f329
+    22.93%, #f5f5f51f 98%) ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+section{
+    display: flex;
+    width: 100%;
+}
+
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5em;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 74%;
+    padding-left: 1em;
+}
+
+.texto-principal{
+    color: #AE218F;
+    font-size: 1.2em;
+}
+
+.descricao{
+    font-size: 2em;
+}
+
+.fonte{
+    font-weight: 700;
+}
+
+.botoes{
+    display: flex;    
+    column-gap: 1em;
+}
+
+button{
+    padding: 1em 5em;
+    border-radius: 1em;
+    font-weight: 700;
+}
+
+.entrar button{
+    background-color: #9D6DEC;
+    color: #FFF;
+}
+
+.login button{
+    color: #6100FF;
+    border: 1px solid #6100FF;
+}

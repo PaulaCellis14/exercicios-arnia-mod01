@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav{
+    background-color: #0055AA;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 1.5%;
+}
+
+.menu{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.quem-somos{
+    text-align: justify;
+    padding: 2%;
+}
+
+.pai-servicos{
+    background-color: #0055AA;
+    padding: 6%;
+    text-align: center;
+}
+
+.servicos{
+    color: #FFF;
+    display: inline-block;
+    margin: 0 10%;
+}
